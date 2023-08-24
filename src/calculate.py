@@ -2,10 +2,12 @@ def add(a, b):
     result = a + b  
     return result
 
-def main():
+def main(operation):
+    # pylint: disable=unused-argument
     x = 3
     y = 5
     print(add(x, y)) 
 
 if __name__ == "__main__":
-    main()
+    operation = "add"
+    main(operation)
