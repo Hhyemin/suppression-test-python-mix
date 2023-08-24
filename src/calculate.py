@@ -1,5 +1,5 @@
 def add(a, b):
-    operator = "" # pylint: disable=unused-variable
+    operator = "add" # pylint: disable=unused-variable
     result = a + b  
     return result
 
