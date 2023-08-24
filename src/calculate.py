@@ -2,6 +2,10 @@ def add(a, b):
     result = a + b  
     return result
 
+def subtraction(a, b):
+    result = a - b  
+    return result
+
 def main(operation):
     # pylint: disable=unused-argument
     x = "3" # type: ignore
