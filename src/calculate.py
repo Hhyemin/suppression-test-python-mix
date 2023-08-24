@@ -4,7 +4,7 @@ def add(a, b):
 
 def main(operation):
     # pylint: disable=unused-argument
-    x = 3
+    x = "3" # type: ignore
     y = 5
     print(add(x, y)) 
 
